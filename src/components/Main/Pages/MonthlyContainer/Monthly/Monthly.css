@@ -1,0 +1,28 @@
+.reqTitle {
+  position: relative;
+}
+.reqTitle::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 2px;
+  background: #27ae60;
+  position: absolute;
+  left: 35%;
+  top: 50px;
+  z-index: -2;
+}
+.reqTitle::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 2px;
+  background: #27ae60;
+  position: absolute;
+  left: 40%;
+  top: 60px;
+  z-index: -2;
+}
+.searchArea {
+  border: 3px solid #fff;
+}

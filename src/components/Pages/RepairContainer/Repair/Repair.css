@@ -1,0 +1,9 @@
+.repairContainer {
+  height: 400px;
+  -webkit-box-shadow: 5px 5px 24px 5px rgba(0, 0, 0, 0.65);
+  box-shadow: 5px 5px 24px 5px rgba(0, 0, 0, 0.21);
+}
+.repairImg img {
+  width: 100px;
+  height: 100px;
+}

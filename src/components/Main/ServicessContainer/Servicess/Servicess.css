@@ -1,0 +1,45 @@
+/* START CARD STYLE */
+.cardContainer {
+  height: 200px;
+  background: #fff;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+.cardContainer:hover {
+  transform: translateY(-5px) scale(1.005) translateZ(0);
+  box-shadow: 0 24px 36px rgba(0, 0, 0, 0.11),
+    0 24px 46px var(--box-shadow-color);
+}
+
+.credentialing {
+  --bg-color: #b8f9d3;
+  --bg-color-light: #e2fced;
+  --text-color-hover: #4c5656;
+  --box-shadow-color: rgba(184, 249, 211, 0.48);
+}
+/* END CARD STYLE */
+@media only screen and (min-width: 600px) {
+  .cardContainer {
+    border-radius: 10px 30px !important;
+    height: 300px;
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .cardContainer {
+    border-radius: 10px 30px !important;
+    width: 247 !important;
+  }
+}
+.serviceTitle {
+  text-decoration: none;
+  color: black;
+}
